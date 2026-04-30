@@ -6,7 +6,7 @@ details using Random Forest Classification.
 
 ## 🔗 Live Demo
 
-[Click here to try the app](your-streamlit-link-here)
+[Click here to try the app](https://loan-approval-app-ml.streamlit.app/)
 
 ## 📌 Project Overview
 
