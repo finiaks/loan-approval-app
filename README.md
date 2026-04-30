@@ -39,6 +39,7 @@ age and years employed with 99.5% accuracy.
 
 ## 📁 Project Structure
 
+```
 loan_approval_ml/
 ├── dataset/
 │ └── loan_data.csv
@@ -48,6 +49,7 @@ loan_approval_ml/
 │ └── main.py
 │ └── app.py
 └── requirements.txt
+```
 
 ## ⚙️ How to Run Locally
 
