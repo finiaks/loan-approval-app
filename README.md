@@ -37,6 +37,33 @@ age and years employed with 99.5% accuracy.
 - Random Forest Accuracy: 99.5%
 - Algorithm used: Random Forest (100 trees)
 
+## 🔧 Hyperparameter Tuning
+
+Used GridSearchCV to find best model parameters:
+
+- Tested 36 combinations automatically
+- 5 fold cross validation for each combination
+- Total 180 fits performed
+
+### Best Parameters Found:
+
+| Parameter         | Value |
+| ----------------- | ----- |
+| n_estimators      | 200   |
+| max_depth         | 10    |
+| min_samples_split | 5     |
+
+### Results:
+
+| Model         | Accuracy |
+| ------------- | -------- |
+| Before Tuning | 99.5%    |
+| After Tuning  | 99.5%    |
+
+Model was already performing excellently due to
+clear patterns in dataset. GridSearchCV confirmed
+these are the optimal settings.
+
 ## 📁 Project Structure
 
 ```
